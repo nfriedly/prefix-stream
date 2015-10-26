@@ -14,7 +14,8 @@
   "main": "lib/index.js",
   "keywords": [
     "prefix",
-    "stream"
+    "stream",
+    "prepend"
   ],
   "repository": "nfriedly/prefix-stream",
   "devDependencies": {
