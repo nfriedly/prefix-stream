@@ -12,14 +12,14 @@ $ npm install --save prefix-stream
 ## Usage
 
 ```js
-var PrefixStream = require('prefix-stream');
+var prefix = require('prefix-stream');
 
 var source = ... // or anything stream that outputs text
 
-source.pipe(new PrefixStream('my cool prefix: ')).pipe(process.stdout);
+source.pipe(prefix('my cool prefix: ')).pipe(process.stdout);
 ```
 
-Alternatively, you can use `new PrefixStream({prefix: 'my cool prefix: '})` if you need to pass other options to the underlying stream implimentation.
+Alternatively, you can use `new PrefixStream({prefix: 'my cool prefix: '})` if you need to pass other options to the underlying stream implementation.
 
 ## License
 
