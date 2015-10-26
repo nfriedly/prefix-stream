@@ -1,6 +1,6 @@
 {
   "name": "prefix-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "prefixes a (text) stream with a given string before each chunk, useful, for e.g., when piping text from multiple sources to stdout",
   "homepage": "",
   "author": {
