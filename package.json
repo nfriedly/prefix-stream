@@ -1,0 +1,34 @@
+{
+  "name": "prefix-stream",
+  "version": "0.0.0",
+  "description": "prefixes a (text) stream with a given string before each chunk, useful, for e.g., when piping text from multiple sources to stdout",
+  "homepage": "",
+  "author": {
+    "name": "Nathan Friedly",
+    "email": "nathan@nfriedly.com",
+    "url": "http://nfriedly.com/"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "prefix",
+    "stream"
+  ],
+  "repository": "nfriedly/prefix-stream",
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^0.4.5"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
